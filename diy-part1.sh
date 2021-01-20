@@ -17,3 +17,5 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
+rm -rf /package/lean/luci-theme-argon  
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/luci-theme-argon
